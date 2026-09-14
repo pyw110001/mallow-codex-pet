@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "reviewed_by": "independent final visual QA worker",
+  "directions": [
+    {"direction":"000","verdict":"pass","expected":"up","observed":"pupils and muzzle lift above neutral","reason":"clear front-facing upward gaze"},
+    {"direction":"022.5","verdict":"pass","expected":"up-right","observed":"nose and pupils begin moving screen-right while raised","reason":"both horizontal and vertical cues are present"},
+    {"direction":"045","verdict":"pass","expected":"up-right","observed":"clear diagonal up-right gaze","reason":"ordered loop advances evenly"},
+    {"direction":"067.5","verdict":"pass","expected":"up-right","observed":"near-right profile retains upward tilt","reason":"no reversal before 090"},
+    {"direction":"090","verdict":"pass","expected":"right","observed":"nose is on the screen-right outer profile","reason":"unmistakable right cardinal"},
+    {"direction":"112.5","verdict":"pass","expected":"down-right","observed":"right profile with lowering gaze","reason":"rightward axis retained while vertical cue lowers"},
+    {"direction":"135","verdict":"pass","expected":"down-right","observed":"clear down-right head and pupil position","reason":"both axes are readable"},
+    {"direction":"157.5","verdict":"pass","expected":"down-right","observed":"near-down pose keeps nose screen-right","reason":"approaches 180 without quadrant reversal"},
+    {"direction":"180","verdict":"pass","expected":"down","observed":"lowered muzzle and pupils","reason":"unmistakable down cardinal"},
+    {"direction":"202.5","verdict":"pass","expected":"down-left","observed":"muzzle and eyes begin screen-left while lowered","reason":"both axes are readable"},
+    {"direction":"225","verdict":"pass","expected":"down-left","observed":"clear diagonal down-left gaze","reason":"blind majority confirmed horizontal and vertical axes"},
+    {"direction":"247.5","verdict":"pass","expected":"down-left","observed":"tucked chin and nose below the level pose","reason":"strong downward contrast to 292.5"},
+    {"direction":"270","verdict":"pass","expected":"left","observed":"level screen-left profile","reason":"unmistakable left cardinal"},
+    {"direction":"292.5","verdict":"pass","expected":"up-left","observed":"raised chin and nose above the level pose toward left","reason":"strong upward contrast to 247.5"},
+    {"direction":"315","verdict":"pass","expected":"up-left","observed":"clear diagonal up-left gaze","reason":"both axes are readable"},
+    {"direction":"337.5","verdict":"pass","expected":"up-left","observed":"near-up pose keeps nose and pupils screen-left","reason":"returns toward 000 without reversal"}
+  ],
+  "review_notes": "Continuity metric warnings were visually reviewed and accepted: the labeled ordered loop has correct quadrants, no visible reversal, and the blind validation has zero warnings or errors."
+}
